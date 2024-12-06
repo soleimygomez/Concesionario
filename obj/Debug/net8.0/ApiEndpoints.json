@@ -1,0 +1,217 @@
+[
+  {
+    "ContainingType": "PruebaConcesionario.Controllers.EmpleadoController",
+    "Method": "GetEmpleados",
+    "RelativePath": "api/Empleado",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PruebaConcesionario.Controllers.EmpleadoController",
+    "Method": "CrearEmpleado",
+    "RelativePath": "api/Empleado/CrearEmpleado",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empleado",
+        "Type": "PruebaConcesionario.Models.Empleado",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PruebaConcesionario.Controllers.TipoIdentificacionController",
+    "Method": "GetTipoIdentificacion",
+    "RelativePath": "api/TipoIdentificacion",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PruebaConcesionario.Controllers.TiposFrenoController",
+    "Method": "GetTiposFrenos",
+    "RelativePath": "api/TiposFreno",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PruebaConcesionario.Controllers.UsuarioController",
+    "Method": "GetUsuarios",
+    "RelativePath": "api/Usuario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PruebaConcesionario.Controllers.UsuarioController",
+    "Method": "CrearUsuario",
+    "RelativePath": "api/Usuario/CrearUsuario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "PruebaConcesionario.Models.Dto.CrearUsuarioDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PruebaConcesionario.Controllers.VehiculoController",
+    "Method": "GetVehiculos",
+    "RelativePath": "api/Vehiculo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PruebaConcesionario.Controllers.VehiculoController",
+    "Method": "BuscarPorIdVehiculo",
+    "RelativePath": "api/Vehiculo/{vehiculoId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vehiculoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PruebaConcesionario.Controllers.VehiculoController",
+    "Method": "CrearVehiculo",
+    "RelativePath": "api/Vehiculo/CrearVehiculo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "marca",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "modelo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ano",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "color",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "kilometraje",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "valor",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "frenoID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "estado",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "tipoVehiculo",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "usuarioIdentificacion",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "idCompania",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "numeroPuertas",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "tipoCombustible",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "tipoTransmision",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "cilindraje",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "imagen",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PruebaConcesionario.Controllers.VehiculoController",
+    "Method": "GetAgrupaTipoVehModelo",
+    "RelativePath": "api/Vehiculo/GetAgrupaTipoVehiculoModelo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PruebaConcesionario.Controllers.VehiculoController",
+    "Method": "VenderVehiculo",
+    "RelativePath": "api/Vehiculo/VenderVehiculo",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vehiculo",
+        "Type": "PruebaConcesionario.Models.Dto.VehiculoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
